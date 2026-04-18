@@ -55,7 +55,7 @@ def pair_data_to_trained_model(list_of_pair_data,hidden_layer_size):
 
     return flow
 
-### stored in "vault_of_the_lucii.py"    
+### stored in "vault_of_the_lucii.py", as it has the potential to be the the malleable weapon that specializes based on enemies.    
 ### This function takes in list of pairs (thing,category/label) and spits out a model trained on that list that predict the probability distribution
 ###      for any similar thing to be in any category/label. No prior knowledge of training pair data needed. But, each data must match in size. 
 ### Pros: simple concept, generalizes for other very different (thing,category)-classification. Checked for thing=image but generalizes for 
